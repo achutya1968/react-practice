@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+//import FormValidation from './Components/FormValidation';
+//import Home from "./Components/Home"
+//import Useref from './Components/Useref';
+//import App from './App';
+//import Root from './Components/Root';
 import reportWebVitals from './reportWebVitals';
-
+import "./App.css"
+//import ProjectThree from './Components/ProjectThree';
+//import ReactForm from './Components/ReactForm';
+//import ProjectTwo from './Components/ProjectTwo';
+import Clock from './Components/ProjectThree';
+//import ProjectOne from './Components/ProjectOne';
+//import FetchBitcoin from './Components/FetchBitcoin';
+//import ReactHook from './Components/ReactHook';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Clock />
   </React.StrictMode>,
   document.getElementById('root')
 );
